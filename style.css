@@ -1,19 +1,23 @@
 body {
     font-family: 'Fira Sans', sans-serif;
-    margin: 5% 10%;
+    margin: 0%;
     /* font-family: 'Lobster', cursive; */
 }
 
+/* ----------------------------------------
+            ***Header Style***  
+------------------------------------------*/
 header {
     background-color: #161616;
     color: #FFFFFF;
+    margin: 2% 8%;
     padding: 5%;
     border-radius: 30px;
 }
 
 .flexible {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .half-width {
@@ -21,16 +25,47 @@ header {
 }
 
 .half-width img {
+    margin: 2% 10%;
     width: fluid;
 }
 
 .button {
-    padding: 2% 6%;
+    margin-top: 10%;
+    padding: 3% 8%;
     border-radius: 10px;
     background: #DD0000;
     color: #FFFFFF;
 }
 
-.fa-regular {
+.button a {
     color: #FFFFFF;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.fa-circle-play {
+    transition: transform 1s;
+}
+
+.play:hover .fa-circle-play {
+    transform: translate(20px);
+}
+
+
+/* -----------------------------------
+         ***Footer Style*** 
+------------------------------------- */
+
+footer {
+    margin-top: 5%;
+    padding: 10% 20%;
+    background-color: #161616;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+footer h3 {
+    padding-bottom: 5%;
+    border-bottom: 1px solid #FFFFFF1A;
 }
